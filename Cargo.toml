@@ -1,0 +1,16 @@
+[package]
+name    = "gununununu"
+version = "1.0.0"
+authors = ["watawuwu@3bi.tech"]
+exclude = ["examples/*", "tests/*", "benches/*", "*.png", "perf/*", "assets", "Makefile", "tmp.rs"]
+readme  = "README.md"
+
+[[bin]]
+name = "gununununu"
+path = "src/main.rs"
+
+[dependencies]
+reqwest = "0.8"
+openssl-probe = "*"
+
+
