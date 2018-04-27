@@ -1,6 +1,9 @@
 target := x86_64-unknown-linux-musl
 image_repo := watawuwu/sample-rust-alpine-https
 
+test:
+	cargo test
+
 docker-build:
 	docker build -t $(image_repo):latest .
 
